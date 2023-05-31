@@ -1,0 +1,180 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/339502621_6011218315628256_4058771719435575942_n.png?stp=dst-png_p206x206&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=MR2WXJBCJGgAX_vRTTI&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSVgCCw5-rOhGHP60OxyQu0uvqmxW0oooT3CdyX_pLyXw&oe=6450ED45);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+.header_nav{
+    height: 32px;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    opacity: 1;
+
+}
+
+
+
+.header_nav-item{
+    padding-left: 32px;
+    color: white;
+    font-size: 1.2rem;
+}
+.header_nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+            /* < -- HEADER__NABVAR__fUNTIONS --> */
+
+.header__funtions{
+    height: 110px;
+    background: rgba(44, 48, 42,0.85) ;
+}
+.header__funtions{
+    color: white;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 800;
+    justify-content: space-between;
+    
+}
+.header__funtions-list{
+    list-style-type: none;
+    display: flex;
+    flex: 2;
+   
+
+}
+.header__funtions-item{
+    padding: 35px 20px 0 20px;
+}
+.header__funtions-title{
+    flex: 1;
+    font-size: 3rem;
+    text-align: center;
+}
+.footer__icon-messenger{
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    margin-top: 13px;
+ 
+}
+.footer__icon{
+   border-radius: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    bottom: -580px;
+    right: 20px;
+}
+.help{
+    height: 300px;
+    width: 330px;
+    background-color: white;
+    top: -320px;
+    right: 7px;
+    position: absolute;
+    border-radius: 20px;
+  
+   
+    
+}
+.header__help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.footer__picture{
+    width: 60px;
+    border-radius: 1000px;
+    margin: 20px;
+}
+.footer__menu-bacham{
+  color: black;
+  font-size: 25px;
+   position: absolute;
+   left: 6px;
+   bottom: 8px;
+}
+.footer__menu {
+    margin-top: 0px;
+    position: relative;
+    background: rgba(128, 128, 128, 0.16);
+    height: 30px;
+    width: 30px;
+    
+    border-radius: 100px;
+ 
+    margin-right: 20px;
+    
+}
+.footer__cancel-gach{
+    font-size: 14px;
+    color: black;
+    font-weight: 900;
+    
+   
+}
+.footer__cancel{
+    margin-top: 0px;
+    background: rgba(128, 128, 128, 0.16);
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+   
+}
+.footer-funtions{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer__body{
+    
+}
+.footer__body-name{
+    font-size: 2rem;
+    
+}
+.footer__body-discription{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: blue;
+    margin:  auto 30px;
+    margin-top: 50px ;
+    font-size: 2rem;
+    border-radius: 10px;
+    min-height: 50px ;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+.footer__start-chat{
+    margin: auto;
+}
+.footer__icon-messenger:hover .help {
+    display: block;
+}
